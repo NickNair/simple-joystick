@@ -5,7 +5,7 @@
 Steps to run this demo
 
 ```
-sudo apt-get install ros-noetic-rosbridge-server
+sudo apt-get install ros-$ROS_DISTRO-rosbridge-server
 
 roslaunch rosbridge_server rosbridge_websocket.launch 
 ```
